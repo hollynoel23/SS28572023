@@ -1,0 +1,65 @@
+---
+title: "Assignment 1"
+author: "Holly Steeves"
+format: 
+  html: 
+    number-sections: true
+    toc: true
+    theme: 
+      light: flatly
+      dark: darkly
+editor: visual
+---
+
+1.  For each of the following identify the population, the sample, and the sampling method.
+
+    a.  
+
+        (3) A business magazine mailed a questionnaire to the human resource directors of all Fortune 500 companies and received responses from 23% of them. Those responding reported that they did not find that such surveys intruded significantly on their work day.
+
+    b.  
+
+        (3) Researchers waited outside a bar they had randomly selected from a list of such establishments. They stopped every tenth person who came out of the bar and asked whether they thought drinking and driving was a serious problem.
+
+    c.  
+
+        (3) Hoping to learn what issues may resonate with voters in the coming election, the campaign director for a mayoral candidate selects one block from each of the city's election districts. Staff members go there and interview all the residents they can find.
+
+    d.  
+
+        (3) Provincial police set up roadblocks to estimate the percentage of trucks with up-to-date registration, insurance and safety inspection stickers. They usually find problems with about 10% of the trucks they stop.
+
+2.  Daily minimum temperatures were recorded in July 2023 in London, Ontario. The data is shown below. This data can be found at [climate.weather.gc.ca](climate.weather.gc.ca)
+
+|      |      |      |      |      |      |      |      |
+|------|------|------|------|------|------|------|------|
+| 18.4 | 20   | 17.5 | 15.4 | 17.1 | 18.2 | 12.7 | 11.7 |
+| 13.7 | 11.9 | 14.4 | 13.1 | 15.1 | 13.7 | 16.3 | 16.8 |
+| 14.1 | 14.2 | 12.5 | 15.5 | 15   | 12.2 | 13.9 | 17.7 |
+| 16   |      | 17.4 | 17.3 | 16.3 | 15.8 | 13   | 11.7 |
+
+         
+a.  (3) Draw a stem and leaf plot by hand. Make sure to identify what the unit of the stem and leaf are. Make sure your final stem and leaf shows the shape of the distribution (round or split as needed).
+
+b.  (3) Draw a histogram by hand with bins bounded by whole numbers. Recall, the lowest bound is inclusive, upper bound is not. Use graph paper.
+
+c.  (2) Describe the characteristics of the distribution as shown in these plots.
+
+3.  Suppose you are interested in genealogy and want to try to predict your potential longevity by using the ages at death of your ancestors. You find out the ages at death of the eight great-grandparents of your mother and father. Suppose the ages are as follows:
+
+Mother's great-grandparents: 84, 81, 80, 78, 80, 81, 82, 82 Father's great-grandparents: 77, 50, 80, 82, 98, 30, 95, 90
+
+Calculate the following by hand, for each set, SHOWING ALL WORK.
+
+        
+a. (4) The mean. 
+b. (4) The median. 
+c. (4) The quartiles. 
+d. (4) The 10\% trimmed mean. 
+e. (2) The Range
+f. (2) The fourth spread
+g. (6) The standard deviation. 
+h. (6) Are there any outliers? 
+i. (6) Draw a boxplot, identifying any outliers. Use graph paper. What is the symmetry of the distribution?         
+j. (2) Which do you think is more useful for predicting longevity in our family? 
+
