@@ -1,0 +1,365 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Assignment 1},
+  pdfauthor={Holly Steeves},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Assignment 1}
+\author{Holly Steeves}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, sharp corners, borderline west={3pt}{0pt}{shadecolor}, enhanced, interior hidden, frame hidden, boxrule=0pt]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  For each of the following identify the population, the sample, and the
+  sampling method.
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    \begin{enumerate}
+    \def\labelenumiii{(\arabic{enumiii})}
+    \setcounter{enumiii}{2}
+    \tightlist
+    \item
+      A business magazine mailed a questionnaire to the human resource
+      directors of all Fortune 500 companies and received responses from
+      23\% of them. Those responding reported that they did not find
+      that such surveys intruded significantly on their work day.
+    \end{enumerate}
+  \item
+    \begin{enumerate}
+    \def\labelenumiii{(\arabic{enumiii})}
+    \setcounter{enumiii}{2}
+    \tightlist
+    \item
+      Researchers waited outside a bar they had randomly selected from a
+      list of such establishments. They stopped every tenth person who
+      came out of the bar and asked whether they thought drinking and
+      driving was a serious problem.
+    \end{enumerate}
+  \item
+    \begin{enumerate}
+    \def\labelenumiii{(\arabic{enumiii})}
+    \setcounter{enumiii}{2}
+    \tightlist
+    \item
+      Hoping to learn what issues may resonate with voters in the coming
+      election, the campaign director for a mayoral candidate selects
+      one block from each of the city's election districts. Staff
+      members go there and interview all the residents they can find.
+    \end{enumerate}
+  \item
+    \begin{enumerate}
+    \def\labelenumiii{(\arabic{enumiii})}
+    \setcounter{enumiii}{2}
+    \tightlist
+    \item
+      Provincial police set up roadblocks to estimate the percentage of
+      trucks with up-to-date registration, insurance and safety
+      inspection stickers. They usually find problems with about 10\% of
+      the trucks they stop.
+    \end{enumerate}
+  \end{enumerate}
+\item
+  Daily minimum temperatures were recorded in July 2023 in London,
+  Ontario. The data is shown below. This data can be found at
+  \url{climate.weather.gc.ca}
+\end{enumerate}
+
+\begin{longtable}[]{@{}llllllll@{}}
+\toprule()
+\endhead
+18.4 & 20 & 17.5 & 15.4 & 17.1 & 18.2 & 12.7 & 11.7 \\
+13.7 & 11.9 & 14.4 & 13.1 & 15.1 & 13.7 & 16.3 & 16.8 \\
+14.1 & 14.2 & 12.5 & 15.5 & 15 & 12.2 & 13.9 & 17.7 \\
+16 & & 17.4 & 17.3 & 16.3 & 15.8 & 13 & 11.7 \\
+\bottomrule()
+\end{longtable}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{2}
+  \tightlist
+  \item
+    Draw a stem and leaf plot by hand. Make sure to identify what the
+    unit of the stem and leaf are. Make sure your final stem and leaf
+    shows the shape of the distribution (round or split as needed).
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{2}
+  \tightlist
+  \item
+    Draw a histogram by hand with bins bounded by whole numbers. Recall,
+    the lowest bound is inclusive, upper bound is not. Use graph paper.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{1}
+  \tightlist
+  \item
+    Describe the characteristics of the distribution as shown in these
+    plots.
+  \end{enumerate}
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Suppose you are interested in genealogy and want to try to predict
+  your potential longevity by using the ages at death of your ancestors.
+  You find out the ages at death of the eight great-grandparents of your
+  mother and father. Suppose the ages are as follows:
+\end{enumerate}
+
+Mother's great-grandparents: 84, 81, 80, 78, 80, 81, 82, 82 Father's
+great-grandparents: 77, 50, 80, 82, 98, 30, 95, 90
+
+Calculate the following by hand, for each set, SHOWING ALL WORK.
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{3}
+  \tightlist
+  \item
+    The mean.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{3}
+  \tightlist
+  \item
+    The median.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{3}
+  \tightlist
+  \item
+    The quartiles.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{3}
+  \tightlist
+  \item
+    The 10\% trimmed mean.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{1}
+  \tightlist
+  \item
+    The Range
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{1}
+  \tightlist
+  \item
+    The fourth spread
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{5}
+  \tightlist
+  \item
+    The standard deviation.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{5}
+  \tightlist
+  \item
+    Are there any outliers?
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{5}
+  \tightlist
+  \item
+    Draw a boxplot, identifying any outliers. Use graph paper. What is
+    the symmetry of the distribution?\\
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \setcounter{enumii}{1}
+  \tightlist
+  \item
+    Which do you think is more useful for predicting longevity in our
+    family?
+  \end{enumerate}
+\end{enumerate}
+
+
+
+\end{document}

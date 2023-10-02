@@ -1,0 +1,50 @@
+---
+title: "Assignment 2"
+author: "Holly Steeves"
+format: 
+  html: 
+    number-sections: true
+    toc: true
+    theme: 
+      light: flatly
+      dark: darkly
+editor: visual
+---
+
+1.  Find the sample space of the following scenario: When buying a new car, you've narrowed your choices to three colours: red, black, or silver. You also need to decide whether to have a sunroof or not, and whether you want leather or cloth interior.
+2.  Suppose that 4 out of 15 doctors in a small hospital are trained in special procedures. 11 of the 15 are under the age of 45, and 2 are both trained in special procedures and under the age of 45. What is the probability that:
+    a.  you are randomly assigned a doctor trained in special procedures or under the age of 45?
+    b.  you are randomly assigned a doctor trained in special procedures but not under the age of 45?
+    c.  you are randomly assigned a doctor who is neither trained in special procedures nor under the age of 45?
+3.  On awards day at the end of the year, Jasmine has an 85% chance of winning the top award in English, and a 4 out of 5 chance of winning an award for athletics. What is the probability that Jasmine wins both awards? What did you have to assume?
+4.  A box of markers contains 10 black-inked (4 wide-tipped and 6 fine-tipped) and 15 red-inked (3 wide-tipped and 12 fine-tipped). What's the probability that a randomly chosen marker will be red, given that it is fine-tipped?
+5.  Mrs. Harvey's algebra class has 42 students, classified by academic year and method of instruction as follows:
+
+|               | In-Class Instruction | Online Instruction |
+|---------------|----------------------|--------------------|
+| **Freshman**  | 9                    | 13                 |
+| **Sophomore** | 4                    | 5                  |
+| **Junior**    | 4                    | 2                  |
+| **Senior**    | 2                    | 3                  |
+
+Mrs. Harvey randomly chooses one student's homework to grade first.
+
+  a.  What is the probability that she selects an in-class student, given that she chooses from only sophomores? 
+  b.  What is the probability that she selects a junior, given that she chooses an online student?
+  c.  If she selects a junior, what is the probability that she selects an online student?
+
+6. Winning lottery numbers are randomly chosen from 101 balls. There are balls number 1-99, along with 2 unnumbered blank balls.
+    a.  What is the probability that the two blank balls are drawn first?
+    b.  What is the probability that the ball numbered 99 is chosen first and then a blank ball is chosen?
+    c.  What is the probability that a blank ball is not drawn if 5 balls are drawn in total?
+
+7.  A couple having twins is deciding on names. They narrowed their choices to 5 family names and 7 non-family names. The new father's parents only like 1 of the family names and 2 of the non-family names. Assuming that the new parents choose one family name and one non-family name, what is the probability that the names they choose will make the new grandparents happy?
+
+8. Employees at a local factor need a unique seven-digit code to access the building. The manager wants to make each person's code from the factor's phone number, 555-9313. 
+    a.  If there are 509 employees who need codes, will the manager have enough unique codes using only the digits in the phone number? 
+    b.  Would there be enough 10 digit codes if he used the area code, 514 as well? 
+  
+9. Lindsay is checking out books at the library, and she is primarily interested in mysteries and nonfiction. She has narrowed her selections down to seven mysteries and eight nonfiction books. 
+    a.  How many different combinations of books can she check out if she is only allowed three books at a time.
+    b.  How many combinations of books can she check out if she is only allowed three books at a time and she wants at least one mystery?
+    c.  If she randomly chooses three books from her selections, what is the probability that they will all be mysteries? 

@@ -2,7 +2,7 @@
 title: "Assignment 1"
 author: "Holly Steeves"
 format: 
-  html: 
+  pdf: 
     number-sections: true
     toc: true
     theme: 
@@ -38,28 +38,63 @@ editor: visual
 | 14.1 | 14.2 | 12.5 | 15.5 | 15   | 12.2 | 13.9 | 17.7 |
 | 16   |      | 17.4 | 17.3 | 16.3 | 15.8 | 13   | 11.7 |
 
-         
-a.  (3) Draw a stem and leaf plot by hand. Make sure to identify what the unit of the stem and leaf are. Make sure your final stem and leaf shows the shape of the distribution (round or split as needed).
+a.  
 
-b.  (3) Draw a histogram by hand with bins bounded by whole numbers. Recall, the lowest bound is inclusive, upper bound is not. Use graph paper.
+    (3) Draw a stem and leaf plot by hand. Make sure to identify what the unit of the stem and leaf are. Make sure your final stem and leaf shows the shape of the distribution (round or split as needed).
 
-c.  (2) Describe the characteristics of the distribution as shown in these plots.
+b.  
 
+    (3) Draw a histogram by hand with bins bounded by whole numbers. Recall, the lowest bound is inclusive, upper bound is not. Use graph paper.
+
+c.  
+
+    (2) Describe the characteristics of the distribution as shown in these plots.
+
+```{=html}
+<!-- -->
+```
 3.  Suppose you are interested in genealogy and want to try to predict your potential longevity by using the ages at death of your ancestors. You find out the ages at death of the eight great-grandparents of your mother and father. Suppose the ages are as follows:
 
 Mother's great-grandparents: 84, 81, 80, 78, 80, 81, 82, 82 Father's great-grandparents: 77, 50, 80, 82, 98, 30, 95, 90
 
 Calculate the following by hand, for each set, SHOWING ALL WORK.
 
-        
-a. (4) The mean. 
-b. (4) The median. 
-c. (4) The quartiles. 
-d. (4) The 10\% trimmed mean. 
-e. (2) The Range
-f. (2) The fourth spread
-g. (6) The standard deviation. 
-h. (6) Are there any outliers? 
-i. (6) Draw a boxplot, identifying any outliers. Use graph paper. What is the symmetry of the distribution?         
-j. (2) Which do you think is more useful for predicting longevity in our family? 
+a.  
 
+    (4) The mean.
+
+b.  
+
+    (4) The median.
+
+c.  
+
+    (4) The quartiles.
+
+d.  
+
+    (4) The 10% trimmed mean.
+
+e.  
+
+    (2) The Range
+
+f.  
+
+    (2) The fourth spread
+
+g.  
+
+    (6) The standard deviation.
+
+h.  
+
+    (6) Are there any outliers?
+
+i.  
+
+    (6) Draw a boxplot, identifying any outliers. Use graph paper. What is the symmetry of the distribution?\
+
+j.  
+
+    (2) Which do you think is more useful for predicting longevity in our family?
