@@ -1,0 +1,68 @@
+---
+title: "Assignment 3"
+author: "Holly Steeves"
+format: 
+  html: 
+    number-sections: true
+    toc: true
+    theme: 
+      light: flatly
+      dark: darkly
+editor: visual
+---
+
+1.  Suppose that a friend is helping put on a fundraiser for the local animal shelter. One activity is a game using a bowl that contains six green marbles and eight blue marbles. To play the game, each person draws two marbles without replacement (and without looking). If both marbles are green, the player wins \$25. If not, the player must donate \$10 to the animal shelter. The marbles are then replaced for the next player.
+
+    1.  Create a probability distribution for the amount won on each game.
+
+    2.  Calculate the expected value of the game for each player.
+
+    3.  Suppose that the marble game is played 350 times. How much money would you expect to be donated to the animal shelter?
+
+2.  If in a typical work day, the president of a company is interrupted twice, answer the following questions.
+
+    1.  What is the probability that in a five-day work week she will be interrupted more than 12 times?
+
+    2.  What is the expected number of times that she will get interrupted in a 5-day work week?
+
+    3.  What is the standard deviation of the number of times that she will get interrupted in a 5-day work week?
+
+    4.  Suppose that she works 20 days a month. What is the probability that she will get interrupted more than 50 times in this time period?
+
+3.  One day while cleaning out your junk drawer at home, you put all of the loose batteries in a pile. Realizing later that two out of the eight were actually new batteries, you decide that it's necessary to test each battery before throwing it away. You select four batteries and test them.
+
+    1.  How many do you expect to be new batteries?
+
+    2.  What is the standard deviation of the number of new batteries in the four selected?
+
+    3.  What is the probability that the two new batteries are within the four selected?
+
+    4.  What is the probability that at least 1 of the new batteries are within the four selected?
+
+4.  You forgot to study for your statistics quiz, and you don't know the answers to any of the ten questions on the page. If each question has four multiple-choice options (one of which is correct),
+
+    1.  what is the probability that you will guess the right answer on at least one question?
+
+    2.  How many questions do you expect you will get right?
+
+    3.  What is the standard deviation of the number of questions you will get right?
+
+    4.  What is the probability that you pass (get at least 6 correct?)
+
+5.  The managing director of a travelling carnival needs to add a new game to the carnival lineup. Given below are the probability distributions for his top two choices. The values of the random variable are the amounts the carnival would either gain (positive values) or have to pay out (negative values).
+
+    1.  Find the expected value of each game.
+
+    2.  What is the standard deviation of each game?
+
+    3.  What the probability that you will have to pay out on a given game?
+
+    4.  Which one would you select to keep? Why?
+
+6.  Suppose on a practice test for studying for your statistics class, a computer will continue to generate multiple choice questions for you until you get 20 correct. But you forgot to study! So you are purely guessing on all the questions. Suppose each question has 5 options, only one of which is correct.
+
+    1.  How many questions do you expect to take before you are finished?
+
+    2.  What is the standard deviation of the number of questions you will write?
+
+    3.  What is the probability that you will answer 50 questions?
