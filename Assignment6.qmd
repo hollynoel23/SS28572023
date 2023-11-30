@@ -1,0 +1,40 @@
+---
+title: "Assignment 6"
+author: "Holly Steeves"
+format: 
+  html: 
+    number-sections: true
+    toc: true
+    theme: 
+      light: flatly
+      dark: darkly
+editor: visual
+---
+
+1.  Suppose we apply for two grants. The probability distribution of the money funded from the grants is shown below. Each grant is independent of the other and has the same probability distribution.
+
+    | x    | 0    | 5000 | 15000 |
+    |------|------|------|-------|
+    | p(x) | 0.55 | 0.35 | 0.1   |
+
+    a.  Find the mean and variance of the amount earned on one grant.
+    b.  Find the probability distribution of the total amount you earn.
+    c.  What is the mean and variance of the total amount you earn? How do these relate to the mean and variance of the amount earned on one grant?
+    d.  Find the probability distribution of the average amount earned.
+    e.  Find the Mean and variance of the mean amount you earn. How do these relate to the mean and variance of the amount earned on one grant?
+
+2.  An HP laser printer is advertised to print text documents at a speed of 18 ppm (pages per minute). The manufacturer tells you that the printing speed is actually a random variable with a mean of 18.23 ppm and a standard deviation of 4.05 ppm.
+
+    a.  What is the probability that 25 randomly selected printers have an average speed slower than 17.5 ppm? Did you have to make any assumptions here?
+
+    b.  What is the probability that 49 randomly selected printers have an average speed slower than 17.5 ppm? Did you have to make any assumptions here?
+
+3.  Five automobiles of the same type are to be driven on a 300-mile trip. The first two will use an economy brand of gasoline, and the other three will use a name brand. Let $X_{1}$, $X_{2}$, $X_{3}$, $X_{4}$, and $X_{5}$ be the observed fuel efficiencies (mpg) for the five cars. Suppose these variables are independent and normally distributed with $\mu_{1} = \mu_{2} = 22$, $\mu_{3} = \mu_{4} = \mu_{5} = 18$, and $\sigma^{2} = 3$ for the economy brand and 4 for the name brand. Define an rv $Y$ by
+
+    $$
+    Y = \frac{X_{1} + X_{2}}{2} - \frac{X_{3} + X_{4} + X_{5}}{3}
+    $$
+
+    a.  Find the mean and variance of the random variable $Y$.
+    b.  Find the probability that $P(Y \geq 0)$.
+    c.  Find the probability that $P(-1 \leq Y \leq 1)$.
